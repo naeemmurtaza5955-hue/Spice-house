@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="main.css">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- icons  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- animations js  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark" data-aos="fade-down">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo_2-removebg-preview.png" alt="" width="120px"
+          height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="booking.html" class=" fw-bold btn btn-warning">Book A Table</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-white Slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/123.png" class="img-fluid" alt="...">
+        <div class="carousel-caption">
+          <h1 class=" fw-bold text-warning" data-aos="fade-down">Welcome To</h1>
+          <h1 class=" fw-bold text-white" data-aos="fade-down">The Spice House</h1>
+          <p class="text-warning " data-aos="fade-down">FINE FOOD & GOOD MOOD</p>
+          <a href="booking.html" class=" fw-bold btn btn-warning" data-aos="fade-up">Book A Table</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/image 1.png" class="d-block w-100">
+        <div class="carousel-caption hero-caption">
+          <h5 class="text-light shadow-text fw-bold fs-2 fs-md-1">Fresh Ingredients, Every Day</h5>
+          <p class="text-warning fw-bold shadow-text">We prepare every dish with fresh ingredients and authentic
+            flavors.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/image 3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5 class=" fw-bold text-white shadow-text">Reserve Your Table Today</h5>
+          <p class="text-warning fw-bold shadow-text">Enjoy premium dining with family and friends in a cozy atmosphere.
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 py-3">
+        <img src="img/img 4.png" class="img-fluid" data-aos="fade-right">
+      </div>
+
+      <div class="col-lg-6">
+        <!-- Text -->
+        <h5 class="text-warning fw-bold mt-3 fst-italic" data-aos="fade-left">ABOUT US</h5>
+
+        <h2 class="text-light fw-bold mt-2 mt-3" data-aos="fade-left">
+          We Serve The <br> Best Food
+        </h2>
+
+        <p class="text-light mt-3" data-aos="fade-left">
+          At The Spice House, we believe good food brings people together.
+          Our chefs use the freshest ingredients to create unforgettable flavors.
+        </p>
+
+        <h4 class="text-warning fst-italic fw-bold mt-5" data-aos="fade-left">
+          The Spice House
+        </h4>
+        <div class="row mt-4">
+
+          <div class="col-4 text-center">
+            <i class="bi bi-basket fs-2 text-warning"></i>
+            <p class="text-white mt-2" data-aos="fade-in">Fresh Ingredients</p>
+          </div>
+
+          <div class="col-4 text-center">
+            <i class="bi bi-person-badge fs-2 text-warning"></i>
+            <p class="text-white mt-2" data-aos="fade-in">Expert Chefs</p>
+          </div>
+
+          <div class="col-4 text-center">
+            <i class="bi bi-cup-hot fs-2 text-warning"></i>
+            <p class="text-white mt-2" data-aos="fade-in">Delicious Food</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-3">
+      <div class="text-center">
+        <p class="text-warning fw-bold display-6 fst-italic mt-4" data-aos="fade-down">WHY CHOOSE US</p>
+        <h2 class="text-white fw-bold mt-4" data-aos="fade-in">Exceptional Taste <br> With Great Service</h2>
+      </div>
+
+      <div class="row text-center mt-5">
+        <div class="col-lg-3 col-md-6">
+          <!-- Icon -->
+
+          <h5 class="text-white fw-bold" data-aos="fade-in">Quality Food</h5>
+          <p class="text-light mt-3" data-aos="fade-in">Fresh and premium ingredients.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white fw-bold" data-aos="fade-in">Talented Chefs</h5>
+          <p class="text-light mt-3" data-aos="fade-in">Experienced professional chefs.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white fw-bold" data-aos="fade-in">Cozy Ambience</h5>
+          <p class="text-light mt-3" data-aos="fade-in">Beautiful dining atmosphere.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-white fw-bold" data-aos="fade-in">Fast Service</h5>
+          <p class="text-light mt-3" data-aos="fade-in">Quick and friendly service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-1">
+      <div class="row text-center">
+
+        <div class="col-3">
+          <h2 class="text-warning fw-bold mt-3" data-aos="fade-in">150+</h2>
+          <p class="text-white" data-aos="fade-up">Delicious Dishes</p>
+        </div>
+
+        <div class="col-3">
+          <h2 class="text-warning fw-bold mt-3" data-aos="fade-in">12K+</h2>
+          <p class="text-white" data-aos="fade-up">Happy Customers</p>
+        </div>
+
+        <div class="col-3">
+          <h2 class="text-warning fw-bold mt-3" data-aos="fade-in">25+</h2>
+          <p class="text-white" data-aos="fade-up">Expert Chefs</p>
+        </div>
+
+        <div class="col-3">
+          <h2 class="text-warning fw-bold mt-3" data-aos="fade-in">8+</h2>
+          <p class="text-white" data-aos="fade-up">Years Experience</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="container text-center mt-5">
+      <h1 class="text-warning fst-italic fw-bold" data-aos="fade-down">OUR SPECIAL</h1>
+      <p class="text-light fst-italic" data-aos="fade-out">Discover our chef's handpicked specialties, crafted with the
+        freshest ingredients and authentic flavors. Every dish is prepared with passion to deliver a delicious dining
+        experience you'll always remember.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/burger.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-warning fst-italic">Signature Gourmet Burger</h5>
+            <p class="card-text text-light">A juicy beef patty with melted cheese, fresh vegetables, and our signature
+              sauce, served on a soft toasted bun.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/ChatGPT Image Jul 16, 2026, 12_33_01 AM.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-4 fw-bold text-warning fst-italic">Classic Italian Lasagna</h5>
+            <p class="card-text text-light">Freshly baked lasagna with savory beef, rich tomato sauce, and melted
+              mozzarella cheese for a comforting Italian delight.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/fish.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-1 fw-bold text-warning fst-italic">Grilled Salmon Fillet</h5>
+            <p class="card-text text-light">Tender grilled salmon served with fresh vegetables and garden greens for a
+              light, healthy, and delicious dining experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/food 4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-1 fw-bold text-warning fst-italic">Roasted Vegetable Quinoa Bowl</h5>
+            <p class="card-text text-light">A wholesome bowl of fluffy quinoa, roasted vegetables, golden grilled tofu,
+              and fresh herbs, topped with crunchy almonds for a healthy and flavorful meal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/food 3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-1 fw-bold text-warning fst-italic">Classic Beef Curry Bowl</h5>
+            <p class="card-text text-light">Tender beef slow-cooked with fresh vegetables in a rich, savory sauce,
+              served alongside fluffy steamed rice for a hearty and satisfying meal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card h-100 bg-black mt-4">
+          <img src="img/food 2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-1 fw-bold text-warning fst-italic">Classic Italian Spaghetti</h5>
+            <p class="card-text text-light">Fresh spaghetti served with savory tomato sauce, Parmesan cheese, and basil
+              for a simple yet delicious Italian meal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <footer class="footer bg-black text-white mt-5" data-aos="fade-up">
+        
+    <div class="container">
+
+        <!-- Top Line -->
+        <div class="text-center mb-5">
+            <i class="bi bi-fork-knife text-warning fs-3"></i>
+            <hr class="border-warning opacity-100">
+        </div>
+
+        <div class="row gy-5">
+
+            <!-- Logo -->
+            <div class="col-lg-3">
+                <img src="img/logo 2.png" class="img-fluid">
+                <p class="text-light mt-">
+                    At The Spice House, we serve fresh,
+                    flavorful dishes made with premium
+                    ingredients. Whether you're dining
+                    with family or friends, we promise
+                    delicious food and a cozy atmosphere.
+                </p>
+                <div class="social mt-4">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-3">
+                <h3 class="text-warning fw-bold mb-4">
+                    QUICK LINKS
+                </h3>
+                <ul class="list-unstyled">
+                    <li><a class="text-light" href="home.html">Home</a></li>
+                    <li><a class="text-light" href="about.html">About</a></li>
+                    <li><a class="text-light" href="menu.html">Menu</a></li>
+                    <li><a class="text-light" href="booking.html">Reservation</a></li>
+                    <li><a class="text-light" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="col-lg-3">
+                <h3 class="text-warning fw-bold mb-4">
+                    OPENING HOURS
+                </h3>
+                <p><i class="bi bi-clock text-warning"></i> Monday - Friday</p>
+                <p class="text-white">
+                    10:00 AM - 11:00 PM
+                </p>
+                <hr>
+                <p><i class="bi bi-clock text-warning"></i> Saturday</p>
+                <p class="text-white">
+                    09:00 AM - 12:00 AM
+                </p>
+                <hr>
+                <p><i class="bi bi-clock text-warning"></i> Sunday</p>
+                <p class="text-white">
+                    09:00 AM - 12:00 AM
+                </p>
+            </div>
+            <!-- Contact -->
+            <div class="col-lg-3">
+                <h3 class="text-warning fw-bold mb-4">
+                    CONTACT
+                </h3>
+                <p>
+                    <i class="bi bi-geo-alt text-warning"></i>
+                    Karachi, Pakistan
+                </p>
+                <p>
+                    <i class="bi bi-telephone text-warning"></i>
+                    +92 300 1234567
+                </p>
+                <p>
+                    <i class="bi bi-envelope text-warning"></i>
+                    info@thespicehouse.com
+                </p>
+                <p>
+                    <i class="bi bi-globe text-warning"></i>
+                    www.thespicehouse.com
+                </p>
+            </div>
+        </div>
+        <!-- Newsletter -->
+        <div class="newsletter p-4 rounded">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <h3 class="text-warning">
+                        Subscribe
+                    </h3>
+                    <p class="text-light">
+                        Get latest offers and updates.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="input-group">
+                        <input type="email"
+                        class="form-control"
+                        placeholder="Enter your email">
+                        <button class="btn btn-warning fw-bold">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom -->
+        <div class="row mt-5 pt-4 border-top">
+            <div class="col-lg-6">
+                © 2026 <span class="text-warning">The Spice House</span>.
+                Designed By ALYYY
+            </div>
+            <div class="col-lg-6 text-lg-end mt-3 mt-lg-0">
+                <i class="bi bi-credit-card fs-3 me-2"></i>
+                <i class="bi bi-paypal fs-3 me-2"></i>
+                <i class="bi bi-wallet2 fs-3"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+</body>
+
+</html>
